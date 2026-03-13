@@ -75,7 +75,7 @@ const SkillCard: React.FC<{ skill: Skill; index: number }> = ({ skill, index }) 
           }}
         >
           {Icon ? (
-            <Icon size={24} style={{ color: accentColor } as React.CSSProperties} />
+            <Icon size={24} className="text-white" />
           ) : (
             <span className="text-xl font-bold" style={{ color: accentColor }}>
               {skill.name.charAt(0)}

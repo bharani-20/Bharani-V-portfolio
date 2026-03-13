@@ -50,7 +50,7 @@ const SocialLinks: React.FC<SocialLinksProps> = ({ links, variant = 'hero' }) =>
               aria-label={link.platform}
             >
               {Icon && (
-                <Icon size={16} style={{ color: link.color }} />
+                <Icon size={16} />
               )}
               <span className="text-sm text-slate-400 group-hover:text-white transition-colors font-body">
                 {link.label}
